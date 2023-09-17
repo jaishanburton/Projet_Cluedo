@@ -1,0 +1,1037 @@
+# depslib dependency file v1.0
+1635799258 source:d:\ece\ing2\s3\projet d'info\plateau_de_jeu\sprg.cpp
+	"headers.h"
+
+1635897550 d:\ece\ing2\s3\projet d'info\plateau_de_jeu\headers.h
+	<iostream>
+	<allegro.h>
+	"plateau.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro.h
+	"allegro/base.h"
+	"allegro/system.h"
+	"allegro/debug.h"
+	"allegro/unicode.h"
+	"allegro/mouse.h"
+	"allegro/timer.h"
+	"allegro/keyboard.h"
+	"allegro/joystick.h"
+	"allegro/palette.h"
+	"allegro/gfx.h"
+	"allegro/color.h"
+	"allegro/draw.h"
+	"allegro/rle.h"
+	"allegro/compiled.h"
+	"allegro/text.h"
+	"allegro/font.h"
+	"allegro/fli.h"
+	"allegro/config.h"
+	"allegro/gui.h"
+	"allegro/sound.h"
+	"allegro/file.h"
+	"allegro/lzss.h"
+	"allegro/datafile.h"
+	"allegro/fixed.h"
+	"allegro/fmaths.h"
+	"allegro/matrix.h"
+	"allegro/quat.h"
+	"allegro/3d.h"
+	"allegro/3dmaths.h"
+	"allegro/alcompat.h"
+	"allegro/fix.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\base.h
+	<errno.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"internal/alconfig.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\internal\alconfig.h
+	"allegro/platform/alplatf.h"
+	"allegro/platform/aldjgpp.h"
+	"allegro/platform/alwatcom.h"
+	"allegro/platform/almngw32.h"
+	"allegro/platform/aldmc.h"
+	"allegro/platform/albcc32.h"
+	"allegro/platform/almsvc.h"
+	"allegro/platform/albecfg.h"
+	"allegro/platform/albecfg.h"
+	"allegro/platform/almaccfg.h"
+	"allegro/platform/alosxcfg.h"
+	"allegro/platform/alqnxcfg.h"
+	"allegro/platform/alucfg.h"
+	"allegro/platform/alpspcfg.h"
+	"allegro/platform/astdint.h"
+
+1604957572 c:\program files (x86)\codeblocks\mingw\include\allegro\platform\alplatf.h
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\platform\aldjgpp.h
+	<pc.h>
+	<dir.h>
+	<dpmi.h>
+	<go32.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/farptr.h>
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\platform\aldmc.h
+	<io.h>
+	<fcntl.h>
+	<stdint.h>
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\platform\albecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\platform\almaccfg.h
+	<MacTypes.h>
+	<QuickDraw.h>
+	<FCntl.h>
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\platform\alosxcfg.h
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\platform\alqnxcfg.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<unistd.h>
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"allegro/platform/alunixac.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\platform\alpspcfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\system.h
+	"base.h"
+	"unicode.h"
+	"config.h"
+	"inline/system.inl"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\unicode.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\config.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\inline\system.inl
+	"allegro/debug.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\debug.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\mouse.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\timer.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\keyboard.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\joystick.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\palette.h
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\gfx.h
+	"3d.h"
+	"base.h"
+	"fixed.h"
+	"inline/gfx.inl"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\3d.h
+	"base.h"
+	"fixed.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\fixed.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\inline\gfx.inl
+	"allegro/debug.h"
+	"asm.inl"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\inline\asm.inl
+	"allegro/platform/al386gcc.h"
+	"allegro/platform/al386vc.h"
+	"allegro/platform/al386wat.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\platform\al386gcc.h
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\platform\al386vc.h
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\platform\al386wat.h
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\color.h
+	"base.h"
+	"palette.h"
+	"inline/color.inl"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\inline\color.inl
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\draw.h
+	"base.h"
+	"fixed.h"
+	"gfx.h"
+	"inline/draw.inl"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\inline\draw.inl
+	"allegro/debug.h"
+	"allegro/3d.h"
+	"gfx.inl"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\rle.h
+	"base.h"
+	"gfx.h"
+	"inline/rle.inl"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\inline\rle.inl
+	"allegro/debug.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\compiled.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\text.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\font.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\fli.h
+	"base.h"
+	"file.h"
+	"palette.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\file.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\gui.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\sound.h
+	"base.h"
+	"digi.h"
+	"stream.h"
+	"midi.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\digi.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\stream.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\midi.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\lzss.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\datafile.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\fmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/fmaths.inl"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\inline\fmaths.inl
+	"asm.inl"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\matrix.h
+	"base.h"
+	"fixed.h"
+	"fmaths.h"
+	"inline/matrix.inl"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\inline\matrix.inl
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\quat.h
+	"base.h"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\3dmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/3dmaths.inl"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\inline\3dmaths.inl
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\alcompat.h
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\fix.h
+	"fixed.h"
+	"fmaths.h"
+	"inline/fix.inl"
+
+1570998130 c:\program files (x86)\codeblocks\mingw\include\allegro\inline\fix.inl
+
+1635456248 source:d:\ece\ing2\s3\projet d'info\plateau_de_jeu\main.cpp
+	"headers.h"
+
+1635791162 d:\ece\ing2\s3\projet d'info\plateau_de_jeu\plateau.h
+	"headers.h"
+	"pion.h"
+
+1635897550 d:\ece\ing2\s3\projet d'info\plateau_de_jeu\pion.h
+	"plateau.h"
+	"headers.h"
+
+1636044362 source:d:\ece\ing2\s3\projet d'info\plateau_de_jeu\ssp_pion.cpp
+	"plateau.h"
+	"headers.h"
+
+1635897550 source:d:\ece\ing2\s3\projet d'info\plateau_de_jeu\plateau.cpp
+	"headers.h"
+
+1636046673 source:c:\users\jaish\downloads\plateau_de_jeu\plateau_de_jeu\main.cpp
+	"headers.h"
+
+1636048621 c:\users\jaish\downloads\plateau_de_jeu\plateau_de_jeu\headers.h
+	<iostream>
+	<allegro.h>
+	"plateau.h"
+
+1636048621 c:\users\jaish\downloads\plateau_de_jeu\plateau_de_jeu\plateau.h
+	"headers.h"
+	"pion.h"
+
+1636048621 c:\users\jaish\downloads\plateau_de_jeu\plateau_de_jeu\pion.h
+	"plateau.h"
+	"headers.h"
+
+1636048447 source:c:\users\jaish\downloads\plateau_de_jeu\plateau_de_jeu\plateau.cpp
+	"headers.h"
+
+1636048093 source:c:\users\jaish\downloads\plateau_de_jeu\plateau_de_jeu\sprg.cpp
+	"headers.h"
+
+1636046673 source:c:\users\jaish\downloads\plateau_de_jeu\plateau_de_jeu\ssp_pion.cpp
+	"plateau.h"
+	"headers.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro.h
+	"allegro/base.h"
+	"allegro/system.h"
+	"allegro/debug.h"
+	"allegro/unicode.h"
+	"allegro/mouse.h"
+	"allegro/timer.h"
+	"allegro/keyboard.h"
+	"allegro/joystick.h"
+	"allegro/palette.h"
+	"allegro/gfx.h"
+	"allegro/color.h"
+	"allegro/draw.h"
+	"allegro/rle.h"
+	"allegro/compiled.h"
+	"allegro/text.h"
+	"allegro/font.h"
+	"allegro/fli.h"
+	"allegro/config.h"
+	"allegro/gui.h"
+	"allegro/sound.h"
+	"allegro/file.h"
+	"allegro/lzss.h"
+	"allegro/datafile.h"
+	"allegro/fixed.h"
+	"allegro/fmaths.h"
+	"allegro/matrix.h"
+	"allegro/quat.h"
+	"allegro/3d.h"
+	"allegro/3dmaths.h"
+	"allegro/alcompat.h"
+	"allegro/fix.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\base.h
+	<errno.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"internal/alconfig.h"
+
+1526089814 c:\program files\codeblocks\mingw\include\errno.h
+	<crtdefs.h>
+
+1526089816 c:\program files\codeblocks\mingw\include\crtdefs.h
+	<_mingw.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\_mingw.h
+	"_mingw_mac.h"
+	"_mingw_secapi.h"
+	"_cygwin.h"
+	<vadefs.h>
+	"sdks/_mingw_directx.h"
+	"sdks/_mingw_ddk.h"
+
+1526089814 c:\program files\codeblocks\mingw\include\_mingw_mac.h
+
+1526089814 c:\program files\codeblocks\mingw\include\_mingw_secapi.h
+
+1526089816 c:\program files\codeblocks\mingw\include\_cygwin.h
+	<stddef.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\stddef.h
+	<crtdefs.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\vadefs.h
+	<_mingw.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\sdks\_mingw_directx.h
+
+1526089814 c:\program files\codeblocks\mingw\include\sdks\_mingw_ddk.h
+
+1526089814 c:\program files\codeblocks\mingw\include\limits.h
+	<crtdefs.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\stdarg.h
+	<_mingw_stdarg.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\_mingw_stdarg.h
+	<vadefs.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\stdlib.h
+	<crtdefs.h>
+	<limits.h>
+	<sec_api/stdlib_s.h>
+	<malloc.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\sec_api\stdlib_s.h
+	<stdlib.h>
+
+1526089816 c:\program files\codeblocks\mingw\include\malloc.h
+	<crtdefs.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\time.h
+	<crtdefs.h>
+	<_timeval.h>
+	<sys/timeb.h>
+	<pthread_time.h>
+
+1526089816 c:\program files\codeblocks\mingw\include\_timeval.h
+
+1526089814 c:\program files\codeblocks\mingw\include\sys\timeb.h
+	<crtdefs.h>
+	<sec_api/sys/timeb_s.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\sec_api\sys\timeb_s.h
+	<sys/timeb.h>
+
+1526089820 c:\program files\codeblocks\mingw\include\pthread_time.h
+	<sys/timeb.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\string.h
+	<crtdefs.h>
+	<sec_api/string_s.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\sec_api\string_s.h
+	<string.h>
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\internal\alconfig.h
+	"allegro/platform/alplatf.h"
+	"allegro/platform/aldjgpp.h"
+	"allegro/platform/alwatcom.h"
+	"allegro/platform/almngw32.h"
+	"allegro/platform/aldmc.h"
+	"allegro/platform/albcc32.h"
+	"allegro/platform/almsvc.h"
+	"allegro/platform/albecfg.h"
+	"allegro/platform/albecfg.h"
+	"allegro/platform/almaccfg.h"
+	"allegro/platform/alosxcfg.h"
+	"allegro/platform/alqnxcfg.h"
+	"allegro/platform/alucfg.h"
+	"allegro/platform/alpspcfg.h"
+	"allegro/platform/astdint.h"
+
+1604957572 c:\program files\codeblocks\mingw\include\allegro\platform\alplatf.h
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\platform\aldjgpp.h
+	<pc.h>
+	<dir.h>
+	<dpmi.h>
+	<go32.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/farptr.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\dir.h
+	<io.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\io.h
+	<crtdefs.h>
+	<string.h>
+	<_mingw_off_t.h>
+	<string.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\_mingw_off_t.h
+
+1526089814 c:\program files\codeblocks\mingw\include\fcntl.h
+	<crtdefs.h>
+	<io.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\unistd.h
+	<io.h>
+	<process.h>
+	<getopt.h>
+	<sys/types.h>
+	<pthread_unistd.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\process.h
+	<crtdefs.h>
+	<corecrt_startup.h>
+	<sys/types.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\corecrt_startup.h
+
+1526089814 c:\program files\codeblocks\mingw\include\sys\types.h
+	<crtdefs.h>
+	<_mingw_off_t.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\getopt.h
+	<crtdefs.h>
+
+1526089820 c:\program files\codeblocks\mingw\include\pthread_unistd.h
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\conio.h
+	<crtdefs.h>
+	<sec_api/conio_s.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\sec_api\conio_s.h
+	<conio.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\direct.h
+	<crtdefs.h>
+	<io.h>
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\platform\aldmc.h
+	<io.h>
+	<fcntl.h>
+	<stdint.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\stdint.h
+	<crtdefs.h>
+	<stddef.h>
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\platform\albecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\platform\almaccfg.h
+	<MacTypes.h>
+	<QuickDraw.h>
+	<FCntl.h>
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\platform\alosxcfg.h
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\platform\alqnxcfg.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<unistd.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\stdio.h
+	<crtdefs.h>
+	<_mingw_print_push.h>
+	<_mingw_off_t.h>
+	<swprintf.inl>
+	<sec_api/stdio_s.h>
+	<_mingw_print_pop.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\_mingw_print_push.h
+
+1526089814 c:\program files\codeblocks\mingw\include\swprintf.inl
+	<vadefs.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\sec_api\stdio_s.h
+	<stdio.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\_mingw_print_pop.h
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"allegro/platform/alunixac.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\platform\alpspcfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1526089814 c:\program files\codeblocks\mingw\include\inttypes.h
+	<crtdefs.h>
+	<stdint.h>
+	<stddef.h>
+	<_mingw_print_push.h>
+	<_mingw_print_pop.h>
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\system.h
+	"base.h"
+	"unicode.h"
+	"config.h"
+	"inline/system.inl"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\unicode.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\config.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\inline\system.inl
+	"allegro/debug.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\debug.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\mouse.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\timer.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\keyboard.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\joystick.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\palette.h
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\gfx.h
+	"3d.h"
+	"base.h"
+	"fixed.h"
+	"inline/gfx.inl"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\3d.h
+	"base.h"
+	"fixed.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\fixed.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\inline\gfx.inl
+	"allegro/debug.h"
+	"asm.inl"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\inline\asm.inl
+	"allegro/platform/al386gcc.h"
+	"allegro/platform/al386vc.h"
+	"allegro/platform/al386wat.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\platform\al386gcc.h
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\platform\al386vc.h
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\platform\al386wat.h
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\color.h
+	"base.h"
+	"palette.h"
+	"inline/color.inl"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\inline\color.inl
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\draw.h
+	"base.h"
+	"fixed.h"
+	"gfx.h"
+	"inline/draw.inl"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\inline\draw.inl
+	"allegro/debug.h"
+	"allegro/3d.h"
+	"gfx.inl"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\rle.h
+	"base.h"
+	"gfx.h"
+	"inline/rle.inl"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\inline\rle.inl
+	"allegro/debug.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\compiled.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\text.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\font.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\fli.h
+	"base.h"
+	"file.h"
+	"palette.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\file.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\gui.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\sound.h
+	"base.h"
+	"digi.h"
+	"stream.h"
+	"midi.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\digi.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\stream.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\midi.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\lzss.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\datafile.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\fmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/fmaths.inl"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\inline\fmaths.inl
+	"asm.inl"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\matrix.h
+	"base.h"
+	"fixed.h"
+	"fmaths.h"
+	"inline/matrix.inl"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\inline\matrix.inl
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\quat.h
+	"base.h"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\3dmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/3dmaths.inl"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\inline\3dmaths.inl
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\alcompat.h
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\fix.h
+	"fixed.h"
+	"fmaths.h"
+	"inline/fix.inl"
+
+1570998130 c:\program files\codeblocks\mingw\include\allegro\inline\fix.inl
+
+1638109834 source:c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\main.cpp
+	"headers.h"
+
+1638053411 c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\headers.h
+	<iostream>
+	<string>
+	<vector>
+	<time.h>
+	<allegro.h>
+	<fstream>
+	<cstring>
+	"Carte.h"
+	"Joueur.h"
+	"Effectif.h"
+	"Partie.h"
+	"Hypothese.h"
+	"plateau.h"
+	"time.h"
+	"pion.h"
+
+1638102107 c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\plateau.h
+	"headers.h"
+	"pion.h"
+
+1638110649 c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\pion.h
+	"plateau.h"
+	"headers.h"
+	"des.h"
+
+1638110649 source:c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\plateau.cpp
+	"headers.h"
+
+1638111295 source:c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\sprg.cpp
+	"headers.h"
+
+1638110649 source:c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\ssp_pion.cpp
+	"plateau.h"
+	"headers.h"
+
+1637952996 source:c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\sprg_des.cpp
+	"plateau.h"
+	"headers.h"
+	"pion.h"
+
+1637570832 c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\des.h
+	"plateau.h"
+	"headers.h"
+	"pion.h"
+
+1637917629 c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\carte.h
+	"headers.h"
+
+1638051487 c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\joueur.h
+	"headers.h"
+
+1637917854 c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\effectif.h
+	"headers.h"
+
+1638048495 c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\hypothese.h
+	"headers.h"
+
+1638012383 c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\partie.h
+	"headers.h"
+
+1637918109 source:c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\carte.cpp
+	"headers.h"
+
+1637918152 source:c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\effectif.cpp
+	"headers.h"
+
+1638111902 source:c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\hypothese.cpp
+	"headers.h"
+
+1638109576 source:c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\joueur.cpp
+	"headers.h"
+
+1638051204 source:c:\users\33768\downloads\plateau_de_jeu\plateau_de_jeu\partie.cpp
+	"headers.h"
+
+1637918110 source:c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\carte.cpp
+	"headers.h"
+
+1638053412 c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\headers.h
+	<iostream>
+	<string>
+	<vector>
+	<time.h>
+	<allegro.h>
+	<fstream>
+	<cstring>
+	"Carte.h"
+	"Joueur.h"
+	"Effectif.h"
+	"Partie.h"
+	"Hypothese.h"
+	"plateau.h"
+	"time.h"
+	"pion.h"
+
+1637917630 c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\carte.h
+	"headers.h"
+
+1638051488 c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\joueur.h
+	"headers.h"
+
+1637917856 c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\effectif.h
+	"headers.h"
+
+1638012384 c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\partie.h
+	"headers.h"
+
+1638118259 c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\hypothese.h
+	"headers.h"
+
+1638102108 c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\plateau.h
+	"headers.h"
+	"pion.h"
+
+1638110650 c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\pion.h
+	"plateau.h"
+	"headers.h"
+	"des.h"
+
+1637570834 c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\des.h
+	"plateau.h"
+	"headers.h"
+	"pion.h"
+
+1637918154 source:c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\effectif.cpp
+	"headers.h"
+
+1638109578 source:c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\joueur.cpp
+	"headers.h"
+
+1638120179 source:c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\main.cpp
+	"headers.h"
+
+1638051206 source:c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\partie.cpp
+	"headers.h"
+
+1638110650 source:c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\plateau.cpp
+	"headers.h"
+
+1637952998 source:c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\sprg_des.cpp
+	"plateau.h"
+	"headers.h"
+	"pion.h"
+
+1638119944 source:c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\ssp_pion.cpp
+	"plateau.h"
+	"headers.h"
+
+1638119045 source:c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\hypothese.cpp
+	"headers.h"
+
+1638119376 source:c:\users\33768\downloads\modif\plateau_de_jeu\plateau_de_jeu\sprg.cpp
+	"headers.h"
+
+1637918110 source:c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\carte.cpp
+	"headers.h"
+
+1638127771 c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\headers.h
+	<iostream>
+	<string>
+	<vector>
+	<time.h>
+	<allegro.h>
+	<fstream>
+	<cstring>
+	"Carte.h"
+	"Joueur.h"
+	"Effectif.h"
+	"Partie.h"
+	"Hypothese.h"
+	"plateau.h"
+	"time.h"
+	"pion.h"
+
+1638131252 c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\carte.h
+	"headers.h"
+
+1638131575 c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\joueur.h
+	"headers.h"
+
+1638131252 c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\effectif.h
+	"headers.h"
+
+1638131575 c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\partie.h
+	"headers.h"
+
+1638131252 c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\hypothese.h
+	"headers.h"
+
+1638131575 c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\plateau.h
+	"headers.h"
+	"pion.h"
+
+1638131575 c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\pion.h
+	"plateau.h"
+	"headers.h"
+	"des.h"
+
+1638131252 c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\des.h
+	"plateau.h"
+	"headers.h"
+	"pion.h"
+
+1637918154 source:c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\effectif.cpp
+	"headers.h"
+
+1638132578 source:c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\hypothese.cpp
+	"headers.h"
+
+1638132578 source:c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\joueur.cpp
+	"headers.h"
+
+1638127657 source:c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\main.cpp
+	"headers.h"
+
+1638133033 source:c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\partie.cpp
+	"headers.h"
+
+1638133660 source:c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\plateau.cpp
+	"headers.h"
+
+1638133569 source:c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\sprg.cpp
+	"headers.h"
+
+1638122950 source:c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\sprg_des.cpp
+	"plateau.h"
+	"headers.h"
+	"pion.h"
+
+1638133565 source:c:\users\bapti\onedrive - groupe inseec (poce)\documents\ing2\info\projet\saru\modif\plateau_de_jeu\plateau_de_jeu\ssp_pion.cpp
+	"plateau.h"
+	"headers.h"
+
